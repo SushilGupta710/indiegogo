@@ -2,6 +2,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [DEMO](#link of website)
 
 ## General info
 https://www.indiegogo.com/projects/turbohub-world-s-fastest-ssd-multiport-adapter--2#/
@@ -23,3 +24,7 @@ $ npm install
 $ npm start OR $ npm run dev
 
 ```
+
+## Demo
+Here is a working live demo :
+https://indiegogo-website.herokuapp.com/
