@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+     <!-- Navigation-->
+     <nav class="navbar navbar-expand-sm navbar-light ">
+          <a class="navbar-brand custom-nav" href="/" style="color: #E51075;">Indiegogo</a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+               aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse font-weight-bold" id="collapsibleNavId">
+               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                         <a class="nav-link" href="#" data-toggle="modal" data-target=".bd-example-modal-lg"
+                              onclick="myFunction()">Explore <i id="icon" class="fas fa-angle-down"></i></a>
+                    </li>
+                    <li class="nav-item active">
+                         <a class="nav-link" href="#">What We Do</a>
+                    </li>
+                    <li class="nav-item active">
+                         <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                    </li>
+
+                    {{!-- <form class="form-inline my-2 my-lg-0">
+                         <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form> --}}
+               </ul>
+               <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                         <a class="nav-link" href="#">For Entrepreneurs</a>
+                    </li>
+                    <li class="nav-item active">
+                         <a class="nav-link" href="#">Start a Campaign</a>
+                    </li>
+                    <li class="nav-item">
+                         <span class="vertical-line"></span>
+                    </li>
+                    <li class="nav-item active">
+                         <a class="nav-link" href="#" data-toggle="modal" data-target="#login">Log In</a>
+                    </li>
+                    <li class="nav-item active">
+                         <a class="nav-link" href="#" data-toggle="modal" data-target="#register">Sign Up</a>
+                    </li>
+               </ul>
+          </div>
+     </nav>
+
+
+     {{!-- Explore page --}}
+     <div class="container-fluid mt-5" id="explore-div">
+          <div class="row">
+               <div class="col-md-8 mx-auto font-weight-bold">
+                    <div class="row">
+                         <div class="col-md-4">
+                              <h7>Explore all Project</h7>
+                              <div class="img-container">
+                                   <div class="centered ">
+                                        <a href=""> Clever Things For <br>Curious Humans <sup>TM</sup></a>
+                                   </div>
+                              </div>
+
+                         </div>
+                         <div class="col-md-2">
+                              <h7>Our Top 10 Finds</h7>
+
+                              <div class="thumbnail">
+                                   <img src="https://c3.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_auto,g_center,q_auto:best,dpr_1.3,f_auto/i7hau016biywxymvvd9f" class="img-fluid" alt="">
+                              </div>
+                         </div>
+                         <div class="col-md-2">
+                              <h7>Team Favorites</h7>
+                              <div class="thumbnail">
+                                   <img src="https://c4.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_auto,g_center,q_auto:best,dpr_1.3,f_auto/hm3rj6fp1q04yos5vebc" class="img-fluid" alt="">
+                              </div>
+                         </div>
+                         <div class="col-md-2">
+                              <h7>InDemand Stars</h7>
+                              <div class="thumbnail">
+                                   <img src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_auto,g_center,q_auto:best,dpr_1.3,f_auto/qireauyaysqvhb3mabqg" class="img-fluid" alt="">
+                              </div>
+                         </div>
+                         <div class="col-md-2">
+                              <h7>Join the Convo</h7>
+                              <div class="thumbnail">
+                                   <img src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_auto,g_center,q_auto:best,dpr_1.3,f_auto/qzkirsdhkn3c6yukvo27" class="img-fluid" alt="">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="row mt-5 custom-decoration">
+               <div class="col-md-8 mx-auto">
+                    <div class="row mt-4">
+                         <div class="col-md-4">
+                              <h6 class="text-uppercase mb-4"><a href="">TECH & INNOVATION</a></h6>
+                              <div class="row">
+                                   <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                             <li><a href="#!">Audio</a></li>
+                                             <li><a href="#!">Camera Gear</a></li>
+                                             <li><a href="#!">Education</a></li>
+                                             <li><a href="#!">Energy & Green Tech</a></li>
+                                             <li><a href="#!">Fashion & Wearables</a></li>
+                                             <li><a href="#!">Food & Beverages</a></li>
+                                        </ul>
+                                   </div>
+                                   <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                             <li><a href="#!">Health & Fitness</a></li>
+                                             <li><a href="#!">Home</a></li>
+                                             <li><a href="#!">Phones & Accessories</a></li>
+                                             <li><a href="#!">Productivity</a></li>
+                                             <li><a href="#!">Transportation</a></li>
+                                             <li><a href="#!">Travel & Outdoors</a></li>
+                                        </ul>
+                                   </div>
+                              </div>
+
+                         </div>
+                         <div class="col-md-4">
+                              <h6 class="text-uppercase mb-4"><a href="">CREATIVE WORKS</a></h6>
+                              <div class="row">
+                                   <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                             <li><a href="#!">Art</a></li>
+                                             <li><a href="#!">Comics</a></li>
+                                             <li><a href="#!">Dance & Theater</a></li>
+                                             <li><a href="#!">Film</a></li>
+                                             <li><a href="#!">Music</a></li>
+                                             <li><a href="#!">Photography</a></li>
+                                        </ul>
+                                   </div>
+                                   <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                             <li><a href="#!">Podcasts, Blogs & Vlogs</a></li>
+                                             <li><a href="#!">Tabletop Games</a></li>
+                                             <li><a href="#!">Video Games</a></li>
+                                             <li><a href="#!">Web Series & TV Shows</a></li>
+                                             <li><a href="#!">Writing & Publishing</a></li>
+                                        </ul>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="col-md-4">
+                              <h6 class="text-uppercase mb-4"><a href="">COMMUNITY PROJECTS</a></h6>
+                              <ul class="list-unstyled">
+                                   <li><a href="#!">Culture</a></li>
+                                   <li><a href="#!">Environment</a></li>
+                                   <li><a href="#!">Human Rights</a></li>
+                                   <li><a href="#!">Local Businesses</a></li>
+                                   <li><a href="#!">Wellness</a></li>
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <script src="js/script.js"></script>
+</body>
+
+</html>
